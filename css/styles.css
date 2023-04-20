@@ -1,70 +1,68 @@
-body, html {
-    height: 100%;
-    margin: 0;
+body,
+html {
+  height: 100%;
+  margin: 0;
 }
 
 @font-face {
-    font-family: Zelda;
-    src: url("../fonts/The\ Wild\ Breath\ of\ Zelda.otf") format("opentype");
+  font-family: Zelda;
+  src: url("../fonts/The\ Wild\ Breath\ of\ Zelda.otf") format("opentype");
 }
 
-#global{
-    background-image: url("../images/zeldatotk.jpg");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+#global {
+  background-image: url("../images/zeldatotk.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-#opacity{    
-    background-color: black;
-    height: 100%;
-    width: 100%;
-    top:0;
-    left:0;
-    opacity: 0.4;
-    z-index: 1;
-    position: absolute;    
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-.time{
-    width: 25%;
-    height: 25%;
-    display: block;
-    float: left;
-    text-align: center;    
+#opacity {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.4;
+  z-index: 1;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.unit{
-    font-size: 40px;
-    font-size: 40px;
-    margin: 0;
+.time {
+  width: 25%;
+  height: 25%;
+  display: block;
+  float: left;
+  text-align: center;
 }
 
-.value{
-    font-size: 150px;
-    display: inline-block;
-    margin: 0;
+.unit {
+  font-size: 10vh;
+  margin: 0;
 }
 
-p{
-    display: block;    
-    font-family: Zelda;
+.value {
+  font-size: 40vh;
+  display: inline-block;
+  margin: 0;
 }
 
-#countdownContainer{
-    z-index: 2;
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    width: 90%;
-    color: white
+p {
+  display: block;
+  font-family: Zelda;
 }
 
+#countdownContainer {
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 90%;
+  color: white;
+}
