@@ -39,12 +39,12 @@ html {
 }
 
 .unit {
-  font-size: 10vh;
+  font-size: 7vwh;
   margin: 0;
 }
 
 .value {
-  font-size: 40vh;
+  font-size: 20vw;
   display: inline-block;
   margin: 0;
 }
